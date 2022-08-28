@@ -18,7 +18,7 @@ let channel;
 channel = 'Outer Value';
 
 if (true) {
-  channel = 'Inner Value';
+  var channel = 'Inner Value';
 }
 // console.log(channel);
 // *** Very Important ***
